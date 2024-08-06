@@ -27,7 +27,7 @@ app.post('/enviar-correo', async (req, res) => {
     const { nombreCliente, correoCliente, mensaje } = req.body;
 
     const mailOptions = {
-        from: 'oz.store200@gmail.com',
+        from: 'email1230@gmail.com',
         to: correoCliente,
         subject: `Mensaje de ${nombreCliente}`,
         text: mensaje,
